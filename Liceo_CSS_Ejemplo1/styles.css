@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+}
+
+header h1 a {
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: green;
+}
+ç
+
+header h1 a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+nav {
+    float: right;
+    margin-top: -55px;
+
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+display: inline-block;
+background: orange;
+padding: 5px 20px;
+
+}
+nav ul li  a {
+    text-decoration: none;    
+    color: white;
+    display: block;
+}
+
+main {
+    background: #a9a8a8;
+    height: 500px;
+    padding: 1px 15px;
+}
+main h2 {
+    color: orange;
+}
+main p {
+    color: white;
+}
+footer {
+    text-align: right;
+
+}

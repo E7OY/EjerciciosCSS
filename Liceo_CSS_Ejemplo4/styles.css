@@ -1,0 +1,85 @@
+body {
+    font-family: cursive;
+    color: blue;
+    font-size: 20px;
+   background-image: url(img/fondo.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h1:first-letter {
+    color: blue;
+}
+
+h2 {
+    color: red;
+}
+
+img {
+    border: 10px solid green;
+    border-radius: 15px;
+    float: right;
+}
+
+p {
+    text-indent: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: 5px solid blue;
+    background:  white;
+    height: 5px;
+}
+
+.datos img {
+    float: none;
+    border: 7px solid white;
+
+}
+
+.datos  {
+list-style-image: url(img/balon.png);}
+
+h3 {
+    color: #FF07E7;
+}
+
+table {
+    border-collapse: collapse;
+    border: 5px solid black;
+    width: 100%;
+    text-align: center;
+}
+th {
+    border: 5px solid black;
+}
+tr:nth-child(even), th {
+    background-color: #808080 !important;
+} 
+tr, th {
+    background: #A9A9A9;
+}
+td {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+#trofeo  {
+    float: left;
+    border: none;
+}
+#palmares{
+    display: inline;
+}
+#trofeo1 {
+    float: none;
+    border: none;
+}
+
+.trofeos, .trofeos ul{
+    list-style-type: "*" !important;
+}

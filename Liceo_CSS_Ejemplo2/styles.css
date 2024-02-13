@@ -1,0 +1,54 @@
+body {
+    font-family: Calibri;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-image: radial-gradient(white, black);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul {
+    padding: 0px;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    background: #e0e0e0;
+    padding: 10px;
+    margin: 0px;
+}
+nav ul li:hover{
+    background: #ccc;
+}
+
+section {
+    background: #e0e0e0;
+    padding: 15px;
+    overflow-x: hidden;
+}
+section h2 {
+    text-decoration: solid;
+    font-size: 25px;
+}
+article {
+    background: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    text-overflow: "";
+}
+article h3 {
+    font-size: 20px;
+}
+footer {
+    background: #000;
+    text-align: right;
+    color: white;
+    height: 50px;
+    font-family: Calibri;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 10px;
+}
