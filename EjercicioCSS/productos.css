@@ -12,6 +12,8 @@ body {
     margin: auto;
     background: #bdbdbd;
     margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 header {
@@ -45,7 +47,9 @@ header nav ul li a {
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken;
+    padding: 20px 0px;
 }
+/*
 .productos {
     padding: 40px;
 }
@@ -70,7 +74,33 @@ header nav ul li a {
 .producto1 img {
     float: left;
     padding: 10px;
+}*/
+
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
 }
+
+tr {
+    border: 5px solid #222222;
+
+}
+td {
+    padding: 10px;
+}
+td h3 {
+    color: #00E900;
+    text-align: left;
+    float: left;
+}
+td h4 {
+    color: #00E900;
+    text-align: right;
+}
+td p{
+}
+
 
 
 footer {
