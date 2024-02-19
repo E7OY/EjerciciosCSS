@@ -45,6 +45,7 @@ div {
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: darken;
+    padding: 20px;
 }
 div p{
     color:  white;
@@ -57,7 +58,56 @@ footer {
     font-size: 14px;
     padding: 20px;
 }
-footer {
 
+
+table {
+    width: 70%;
+    margin: auto;
+    border-collapse: collapse;
 }
 
+
+tr {
+    border: 5px solid #222222;
+
+}
+td {
+    padding: 10px;
+}
+td h3 {
+    color: #00E900;
+    text-align: left;
+    float: left;
+}
+td h4 {
+    color: #00E900;
+    text-align: right;
+}
+
+h2 {
+    color: white;
+}
+
+.contacto {
+    text-align: center;
+}
+
+ form td {
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    color: white;
+}
+
+input[type="submit"]{
+    border-radius: 0px;
+    background: #00E900;
+    padding: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.info_contacto {
+    float: right;
+}
