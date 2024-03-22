@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+
+    <section class="main">
+
+        <header>
+            <a href="index.html"><img src="img/logorazerheadre.png" width="150px" alt="logorazer"></a> 
+            <nav>
+                <ul>
+                    <li><a class="magic-hover magic-hover__square" href="index.html">Inicio</a></li>
+                    <li><a class="magic-hover magic-hover__square" href="productos.html">Productos</a></li>
+                    <li><a class="magic-hover magic-hover__square" href="contacto.html">Contacto</a></li>
+                    <li><a class="active" href="registro.html">Registro</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="info">
+            <form action="mailto:e.garcia@liceolapaz.net" method="post">
+                <table>
+                <tr>
+                    <td>
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" name="usuario" id="usuario" required placeholder="Usuario" minlength="4" maxlength="25">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" name="password" id="password" placeholder="Contraseña" required minlength="5" maxlength="45">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="email">Correo electronico:</label>
+                        <input type="email" name="email" id="email" placeholder="E-mail" required minlength="10">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Nombre"  required minlength="2" maxlength="10">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="apellido1">Primer apellido:</label>
+                        <input type="text" name="apellido1" id="apellido1" placeholder="Primer Apellido" required minlength="2" max="15">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="apellido2">Segundo apellido:</label>
+                        <input type="text" name="apellido2" id="apellido2" placeholder="Segundo Apellido" minlength="2" maxlength="15">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="fecha">Fecha de Nacimiento:</label>
+                        <input type="date" name="fecha" id="fecha" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="telefono">Teléfono movil:</label>
+                        <input type="tel" name="telefono" id="telefono" placeholder="Móvil" required minlength="9" maxlength="9">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="direccion">Direccion:</label>
+                        <textarea name="direccion" id="direccion" placeholder="Dirección" required cols="20" rows="3" minlength="15" maxlength="55"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="terminos" required>
+                        <label for="terminos">Acepto los terminos y condiciones.</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button class="registro"><span>Registro</span></button>
+                    </td>
+                </tr>
+                </table>
+            </form>
+        </div>    
+
+        <footer>
+            Pagina web hecha por Eloy Garcia Martinez (<a href="mailto:e.garcia@liceolapaz.net">e.garcia@liceolapaz.net</a>).
+           <br/> &copy;2024. Todos los derechos reservados.
+        </footer>
+
+    </section>
+    
+    <script type="text/javascript" src="https://res.cloudinary.com/veseylab/raw/upload/v1684982764/magicmouse-2.0.0.cdn.min.js"></script>
+    <script type="text/javascript">
+        options = {
+        "cursorOuter": "circle-basic",
+        "hoverEffect": "circle-move",
+        "hoverItemMove": true,
+        "defaultCursor": true,
+        "outerWidth": 41,
+        "outerHeight": 41,
+          };
+        magicMouse(options);
+    </script>
+</body>
+</html>
