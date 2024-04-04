@@ -1,0 +1,128 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background:url(../img/matrix.jpg);    
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.5);
+    widows: 100%;
+    text-align: center;    
+    padding-top: 10px;
+}
+
+header img {
+    background: rgba(0, 153, 41, 0.4);
+    width: 20%;
+}
+
+
+nav {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: auto;
+    margin: 0px 80px;
+}
+
+nav ul li a {
+    background: rgb(0, 153, 41);
+    padding: 10px 60px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.active .button {
+    background: none;
+    border: 1px solid rgb(0, 153, 41);
+}
+
+table {
+    width: 97%;
+    margin: auto;
+    margin-top: 50px;
+    border-collapse: collapse;
+    border: 4px solid #009929;
+}
+
+table td {
+    border: 2px solid #009929;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+table img {
+    width: 50%;
+}
+
+table p {
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+table p strong {
+    color: #009929;
+    font-size: 22px;
+}
+
+table td a {
+    padding: 10px;
+}
+
+table td  .button {
+    background-color: #009929;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 120px;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: 50px;
+    background: #000;
+    color: #009929;
+    height: 50px;
+    display: flex;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-weight: 200;
+}
